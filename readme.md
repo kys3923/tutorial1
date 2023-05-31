@@ -11,10 +11,10 @@
 * git: https://docs.github.com/en/get-started/quickstart/set-up-git
 
 ### HTML basics
-* <!DOCTYPE html>
-* <html>
-* <head>
-* <body>
+* !DOCTYPE html
+* html
+* head
+* body
 * document, headings, paragraphs, links, images, buttons, lists
 * title, href, alt attributes
 * text formatting: b, strong, i, em, mark, del, ins, sub, sup
