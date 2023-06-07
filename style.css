@@ -1,0 +1,43 @@
+h3 {
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+p {
+  color: red;
+}
+
+#change {
+  color: blue;
+}
+
+.change2 {
+  color: purple;
+}
+
+.firstBlock {
+  background-color: aquamarine;
+  padding: 1em;
+  margin: 0 auto;
+}
+
+.inside {
+  background-color: rgba(150, 150, 150, 0.5);
+  border: 10px none black;
+  padding: 1em 3em;
+  font-size: 1.25em;
+}
+
+.secondBox {
+  width: 50%;
+  max-width: 30em;
+  min-width: 15em;
+  margin: 0 auto;
+}
+
+.thirdBox {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpXE7dOugxRUd0dBP_mz5IBwQ3J0NeijJ7tiOrRq9mpw&s');
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+}

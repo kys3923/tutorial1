@@ -43,3 +43,6 @@
 
 #### Assignment2
 * style Assignment1 with CSS
+
+**** Week Assignment1
+* copy: https://www.meta.com/quest/products/quest-2/?utm_source=gg&utm_medium=ps&utm_campaign=18854243668&utm_term=oculus&utm_content=656722224916&utm_funnel=dcap&gclid=CjwKCAjwsvujBhAXEiwA_UXnAF7tkjAtdExFvOqeYVveO7vWXM6IAHdU7Opuz_qQ9hUNCls-p7jYMRoCqT0QAvD_BwE&gclsrc=aw.ds
