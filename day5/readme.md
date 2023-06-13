@@ -29,7 +29,25 @@
 * typeof
 * type Conversion
 
+## Day 7
 * DOM
+* getElementById 
+* getElementsByClassName
+* querySelector
+* innerHTML
+* style
+* Forms - onsubmit, action, method
+* Events - onclick, onchange, onmouseover, onmounseout
+* Event Listner - addEventListenter(event, functiion, capture)
+* window - open, close, moveTo, resizeTo
+* screen - width, height
+* window.location - href, hostname, pathname, protocol, assign
+* history - back, forward
+* window.alert
+* setTimeout(function, miliseconds)
+* setInterval(function, miliseconds)
+* document.cookie, decodeURIComponemt(document.cookie)
+* localStorage
 
 ### Assignment
 * create a calculater app.

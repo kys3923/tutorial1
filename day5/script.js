@@ -58,6 +58,7 @@ const test3 = () => {
 }
 test3()
 
+tempArry.forEach((item) => item + 'test') // ES6
 
 // >, <, <=, >=, !=
 console.log(tempArry[2].name) //파일 실행기
