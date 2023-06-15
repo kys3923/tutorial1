@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.eventBox {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+}
+
+.eventBox div {
+  padding: 3em 6em;
+  background-color: aquamarine;
+}

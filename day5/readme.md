@@ -30,7 +30,7 @@
 * type Conversion
 
 ## Day 7
-* DOM
+#### DOM
 * getElementById 
 * getElementsByClassName
 * querySelector
