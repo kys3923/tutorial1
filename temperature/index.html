@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+  <link rel="styleSheet" href="style.css">
+  <script src="script.js" defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <h1>Temperature Converter</h1>
+  <input type="text" class="typeInput" />
+  <div class="radioBoxContainer">
+    <div class="radiobox">
+      <label>
+        °C
+      </label>
+      <input type="radio" name="degree" value="Cel" id="Cel"/>
+    </div>
+    <div class="radiobox">
+      <label>
+        °F
+      </label>
+      <input type="radio" name="degree" value="Far" id="Far"/>
+    </div>
+  </div>
+  <select>
+    <option>C</option>
+    <option>F</option>
+  </select>
+  <form>
+    <div class="buttonContainer">
+      <button id="convertButton" type="submit">Convert</button>
+      <button id="clearButton">Clear</button>
+    </div>
+  </form>
+  <div id="resultContainer">
+    <p class="resultText"></p>
+  </div>
+</body>
