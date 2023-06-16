@@ -38,8 +38,4 @@ We will be making a Tic Tac Toe game using all of these concepts.
 * Make your computer seem more human by adding a short time delay between your turn and the computer's turn.
 * Style it up! Get creative, or even make a theme!
 
-## Super Duper Bonus
-
-* Add an AI that can beat you every time with the mini-max algorithm.
-
 ---
