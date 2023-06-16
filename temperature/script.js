@@ -30,12 +30,15 @@ document.querySelector('form').addEventListener('click', (e) => {
     if(!Cel.checked && !Far.checked) {
       return window.alert('please select option')
     }
+
     if(Cel.checked) {
       selectedTempType = 'cel'
     }
+
     if(Far.checked) {
       selectedTempType = 'far'
     }
+    
     await convertTemperature(selectedTempType)
     resultTxt.innerHTML = reusltValue
     if(Number(reusltValue) > 100 && Far.checked) {
