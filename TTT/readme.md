@@ -28,5 +28,3 @@ We will be making a Tic Tac Toe game using all of these concepts.
 * Detect winner: Stop game and declare the winner if one player ends up getting three in a row. 
   * Hint: Determine a set of winning combinations. Check those combinations on the board contents after every move.
 
-**Have Fun** - The best way to learn is by playing with code. Let creativity guide you and try some experiments with JS and CSS and see what you can do.
-
