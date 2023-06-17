@@ -42,20 +42,26 @@ const checkWin = () => {
     turnText.innerHTML = 'Player X wins!'
   } else {
     turnChanger()
+  } 
+}
+
+const checkDraw = () => {
+  if (cell1.innerHTML !== '' && cell2.innerHTML !== '' && cell3.innerHTML !== '' && cell4.innerHTML !== '' && cell5.innerHTML !== '' && cell6.innerHTML !== '' && cell7.innerHTML !== '' && cell8.innerHTML !== '' && cell9.innerHTML !== '') {
+    disableGame()
+    turnText.innerHTML = 'Draw Game'
   }
 }
 
 const game = () => {
   for (let i = 0; i < cells.length; i++) {
     cells[i].onclick = () => {
+      checkDraw()
       if(cells[i].innerHTML !== 'O' && cells[i].innerHTML !== 'X') { 
         if(nextTurn) {
           cells[i].innerHTML = 'O'
-          // Check if game finished
           checkWin()
         } else {
           cells[i].innerHTML = 'X'
-          // check if game finished
           checkWin()
         }
       }
